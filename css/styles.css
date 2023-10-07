@@ -173,7 +173,7 @@ address {
   border: none;
   padding: 16px 32px;
   border-radius: 4px;
-  margin: 0 auto; /*!Чи потрібна у кнопці ця властивість?*/
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -259,7 +259,6 @@ address {
   border-radius: 0px 0px 4px 4px;
 }
 .team-menu-img {
-  margin-bottom: 32px;
 }
 
 .team-menu-name {
@@ -316,7 +315,6 @@ address {
   border-radius: 0px 0px 4px 4px;
 }
 .portfolio-menu-img {
-  margin-bottom: 32px;
 }
 
 .portfolio-menu-name {
