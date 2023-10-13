@@ -176,7 +176,9 @@ address {
     url(../images/hero-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px;
+  background-size: cover;
+  max-width: 1440px;
+  margin: auto;
 }
 .hero-title {
   color: var(--WHITE, #fff);
@@ -205,6 +207,7 @@ address {
   padding: 16px 32px;
   border-radius: 4px;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -357,7 +360,7 @@ address {
 }
 
 .team-link-icons:hover,
-:focus {
+.team-link-icons:focus {
   background-color: #404bbf;
 }
 
@@ -390,6 +393,7 @@ address {
 .portfolio-menu-item {
   width: calc((100% - 2 * 24px) / 3);
   border-radius: 0px 0px 4px 4px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-menu-item:hover .portfolio-cover-block {
